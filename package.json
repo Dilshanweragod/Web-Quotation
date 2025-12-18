@@ -1,0 +1,20 @@
+{
+  "name": "quotation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "electron.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "echo \"No build step needed for static HTML project\"",
+    "build-win": "electron-packager . quotation --platform=win32 --arch=x64 --out=dist --overwrite --electron-version=37.3.1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^37.3.1",
+    "electron-packager": "^17.1.2"
+  }
+}
